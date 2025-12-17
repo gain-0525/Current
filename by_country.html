@@ -1,0 +1,39 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>환율 계산기</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Chart.js 라이브러리 추가 -->
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <nav>
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">Currency Converter</a></li>
+          <li class="nav-item"><a href="currencyExchangeFee.html" class="nav-link">Currency Exchange Fee</a></li>
+          <li class="nav-item"><a href="by_country.html" class="nav-link">Exchange Rate by Country</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="login">
+      <h1 class="login-title">Exchange Rate Calculator</h1>
+      <p class="subtitle">Choose the currency and the amounts <br>to get the exchange rate</p>
+      
+      <button id="swap" data-currency="USD"><a href="by_country_us.html">US</a></button>
+      <button id="swap" data-currency="EUR"><a href="by_country_eur.html">EUR</a></button>
+      <button id="swap" data-currency="JPY"><a href="by_country_jpy.html">JPY</a></button>
+      <button id="swap" data-currency="CNY"><a href="by_country_cny.html">CNY</a></button>
+    </div>
+
+    <div class="gr">
+      <canvas id="exchangeRateChart" width="400" height="200"></canvas> <!-- 차트를 그릴 캔버스 추가 -->
+    </div>
+  </body>
+</html>

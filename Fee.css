@@ -1,0 +1,150 @@
+
+ 
+ table{
+  width: 40%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  border: 2px solid #1b96c8;
+  }  /*이중선 제거*/
+ th,td{
+      width: 100px;
+      height: 50px;
+      text-align: center;
+      border: 1px solid #1b96c8;
+      
+      vertical-align: top;	/* 위 */
+      vertical-align: bottom;   /* 아래 */
+      vertical-align: middle;   /* 가운데 */
+    }
+
+    .login-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 36px;
+      font-weight: 1000;
+      margin: 60px 0 30px;
+      color: #0946a8;
+      text-align: center;
+    }
+
+    .select {
+      font-size: 14px;
+      color: #484a4f;
+      width: 150px;
+      height: 35px;
+      border-color: #1b55c8;
+      border-radius: 5px;
+      border: 0px auto;
+      
+    
+    }
+
+    .subtitle {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      margin: 40px 0;
+   
+      color: #1b96c8;
+      text-align: center;
+    }
+
+    input {
+      border: 1px solid #1b55c8;
+      color: #0b3281;
+      display: block;
+      font-size: 14px;
+      margin: 20px 0px;
+      width: 100%;
+      line-height: 36px;
+      border-radius: 8px;
+      padding: 12px 10px;
+      justify-content: center;
+      max-width: 525px;
+
+    }
+
+    
+button {
+  background-color: #04328d;
+  border: none;
+  color: #ffffff;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0px 40px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 15px 0px;
+  text-align: center;
+  justify-content: center;
+  max-width: 550px;
+}
+
+
+
+.login {
+  margin: 50px auto 20px;
+  width: 550px;
+  display: flex;
+  gap:20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.rate {
+  color: #283579;
+  font-size: 18px;
+  padding: 0 0px;
+  font-size: 16px;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+nav {
+  padding: 15px 0 30px;
+  border-bottom: 2px solid #1b55c8;
+}
+
+nav ul {
+  display: flex; /* 가로 정렬 */
+  justify-content: center; /* 중앙 정렬 */
+  gap: 20px; /* 항목 사이 간격 */
+  list-style: none; /* 기본 리스트 스타일 제거 */
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+  padding: 10px 15px;
+  transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #1b55c8;
+}
+
+.final {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+
+  color: #03131a;
+}
+
+.enter {
+  margin: 50px auto;
+  width: 550px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  display: felx;
+}
